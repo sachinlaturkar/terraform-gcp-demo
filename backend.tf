@@ -2,7 +2,7 @@
 terraform {
   backend "gcs" {
     bucket  = "terraform-state-zbpoc-bucket"
-    path    = "terraform-state/terraform.tfstate"
+    path    = "terraform.tfstate"
     project = "zb-poc"
  }
 }
